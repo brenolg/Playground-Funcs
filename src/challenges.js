@@ -1,12 +1,30 @@
 // Desafio 1
-function compareTrue() {
-  // seu código aqui111
+
+const girafa = true;
+const elefante = true;
+const macaco = false;
+
+function compareTrue(anima1,animal2) {
+  if (anima1 === true && animal2 === true) {
+    return true;
+  } else {
+    return false;
+  }
+
 }
 
 // Desafio 2
-function calcArea() {
-  // seu código aqui
+
+let base = 10;
+let height = 50;
+function calcArea(base, altura) {
+  let areaT = (base * altura) / 2.;
+  return areaT
+
+  
 }
+
+console.log(calcArea(base, height))
 
 // Desafio 3
 function splitSentence() {

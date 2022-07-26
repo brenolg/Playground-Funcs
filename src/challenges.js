@@ -1,9 +1,5 @@
 // Desafio 1
 
-const girafa = true;
-const elefante = true;
-const macaco = false;
-
 function compareTrue(anima1,animal2) {
   if (anima1 === true && animal2 === true) {
     return true;
@@ -21,15 +17,17 @@ function calcArea(base, altura) {
   let areaT = (base * altura) / 2.;
   return areaT
 
-  
 }
-
-console.log(calcArea(base, height))
 
 // Desafio 3
-function splitSentence() {
-  // seu código aqui
+
+let trybe = "go Trybe";
+function splitSentence(text) {
+  let stringSplit = text.split(" ");
+  return stringSplit
 }
+
+console.log(splitSentence(trybe))
 
 // Desafio 4
 function concatName() {

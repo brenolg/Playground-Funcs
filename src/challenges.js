@@ -50,29 +50,23 @@ function footballPoints(vitorias, ties) {
 
 let array = [9, 1, 2, 3, 9, 5, 7]
 function highestCount(numeros) {
-  let contRepetido = 0;
-  let contNumero = 0;
-  let indexNumeroRepetido = 0;
-  
-  for (let index in numeros) {
-      let verificaNumero = numeros[index];
-      for (let index2 in numeros) {
-        if (verificaNumero === numeros[index2]) {
-          contNumero += 1;
-        }
-      }
-      if (contNumero > contRepetido) {
-        contRepetido = contNumero;
-        indexNumeroRepetido = index;
-      }
-      contNumero = 0;
-    }
-  
-    return numeros[indexNumeroRepetido];
-  }
-  
- 
 
+  let maiorN = -1000;
+  let contador = 0;
+
+    for (let index of numeros) {
+        if (index > maiorN){
+            maiorN = index;
+        }
+    }  
+     for (let index2 of numeros){
+        if (maiorN === index2) {
+            contador += 1;
+        }
+    }
+    return contador
+    
+}
 
 // Desafio 7
 function catAndMouse() {

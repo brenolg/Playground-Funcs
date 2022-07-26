@@ -11,8 +11,6 @@ function compareTrue(anima1,animal2) {
 
 // Desafio 2
 
-let base = 10;
-let height = 50;
 function calcArea(base, altura) {
   let areaT = (base * altura) / 2.;
   return areaT
@@ -26,7 +24,6 @@ function splitSentence(text) {
   return stringSplit
 }
 
-console.log(splitSentence(trybe))
 
 // Desafio 4
 
@@ -34,16 +31,12 @@ function concatName(array) {
   
   let firstName = array[0];
   let lastName = (array[array.length - 1]);
-  let nomesC = [];
-  nomesC.push(lastName, firstName);
-  return nomesC
+  return lastName + ", " + firstNameclear;
 
 }
 
 // Desafio 5
 
-let wins = 1;
-let ties = 2;
 
 function footballPoints(vitorias, ties) {
   let calculadorV = vitorias * 3;
@@ -53,12 +46,33 @@ function footballPoints(vitorias, ties) {
   
 }
 
-console.log(footballPoints(wins,ties))
-
 // Desafio 6
-function highestCount() {
-  // seu código aqui
-}
+
+let array = [9, 1, 2, 3, 9, 5, 7]
+function highestCount(numeros) {
+  let contRepetido = 0;
+  let contNumero = 0;
+  let indexNumeroRepetido = 0;
+  
+  for (let index in numeros) {
+      let verificaNumero = numeros[index];
+      for (let index2 in numeros) {
+        if (verificaNumero === numeros[index2]) {
+          contNumero += 1;
+        }
+      }
+      if (contNumero > contRepetido) {
+        contRepetido = contNumero;
+        indexNumeroRepetido = index;
+      }
+      contNumero = 0;
+    }
+  
+    return numeros[indexNumeroRepetido];
+  }
+  
+ 
+
 
 // Desafio 7
 function catAndMouse() {

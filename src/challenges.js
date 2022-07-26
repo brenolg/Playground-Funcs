@@ -37,13 +37,23 @@ function concatName(array) {
   let nomesC = [];
   nomesC.push(lastName, firstName);
   return nomesC
-  
+
 }
 
 // Desafio 5
-function footballPoints() {
-  // seu código aqui
+
+let wins = 1;
+let ties = 2;
+
+function footballPoints(vitorias, ties) {
+  let calculadorV = vitorias * 3;
+  let calculadorT = ties * 1;
+  let calculadorPontos = calculadorT + calculadorV;
+  return calculadorPontos;
+  
 }
+
+console.log(footballPoints(wins,ties))
 
 // Desafio 6
 function highestCount() {

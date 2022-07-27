@@ -31,7 +31,7 @@ function concatName(array) {
   
   let firstName = array[0];
   let lastName = (array[array.length - 1]);
-  return lastName + ", " + firstNameclear;
+  return lastName + ", " + firstName;
 
 }
 
@@ -86,12 +86,24 @@ function catAndMouse(mouse, cat1, cat2) {
   } 
 }
 
-
-
 // Desafio 8
-function fizzBuzz() {
-  // seu código aqui
-}
+function fizzBuzz(numeros) {
+  let resposta = []
+  for (let i = 0; i < numeros.length; i++){
+    if ((numeros[i] % 3) == 0 && (numeros[i] % 5) == 0){
+      resposta.push('fizzBuzz')
+    } else if((numeros[i] % 3) == 0) {
+      resposta.push('fizz')
+    } else if ((numeros[i] % 5) == 0){
+      resposta.push('buzz')
+    }else {
+      resposta.push('bug!') 
+    } 
+  }
+  return resposta;
+
+} 
+
 
 // Desafio 9
 function encode() {

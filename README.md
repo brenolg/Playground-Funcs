@@ -5,7 +5,7 @@ Este é um projeto de funções JavaScript que visa praticar os conceitos básic
 Para executar este projeto localmente, você precisa ter instalado o Node.js e o Jest. Você pode clonar este repositório usando o comando:
 
 ```javascript
-  git clone https://github.com/tryber/sd-025-b-project-playground-functions.git
+  git clone git@github.com:brenolg/playground-funcs.git
 ```
 Depois de clonar, entre na pasta do projeto e instale as dependências:
 

@@ -33,7 +33,7 @@ npm test
 
 
 # Estrutura do código
-O código deste projeto está organizado em dois arquivos principais: src/challenges.js e src/challenges2.js. Cada arquivo contém uma série de funções que devem ser implementadas seguindo as instruções e requisitos especificados nos comentários. Os arquivos tests/challenges.spec.js e tests/challenges2.spec.js contêm os testes unitários que verificam se as funções estão funcionando corretamente.
+O código deste projeto está organizado no arquivo: src/challenges.js. CO arquivo contém uma série de funções que devem ser implementadas seguindo as instruções e requisitos especificados pela Trybe. O arquivos tests/challenges.spec.js contêm os testes unitários que verificam se as funções estão funcionando corretamente.
 
 # Agradecimentos/Referências
 Este projeto foi desenvolvido pela Trybe como parte do curso de Desenvolvimento Web Full Stack. Agradeço à Trybe pelo suporte e orientação durante todo o processo.

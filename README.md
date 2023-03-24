@@ -10,7 +10,6 @@ Para executar este projeto localmente, você precisa ter instalado o Node.js e o
 Depois de clonar, entre na pasta do projeto e instale as dependências:
 
 ```javascript
-cd sd-025-b-project-playground-functions
 npm install
 ```
 Para rodar os testes, use o comando:

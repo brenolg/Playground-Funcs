@@ -5,7 +5,7 @@ Este é um projeto de funções JavaScript que visa praticar os conceitos básic
 Para executar este projeto localmente, você precisa ter instalado o Node.js e o Jest. Você pode clonar este repositório usando o comando:
 
 ```javascript
-  git clone git@github.com:brenolg/playground-funcs.git
+  git clone git@github.com:brenolg/Playground-Funcs.git
 ```
 Depois de clonar, entre na pasta do projeto e instale as dependências:
 
@@ -32,7 +32,7 @@ npm test
 
 
 # Estrutura do código
-O código deste projeto está organizado no arquivo: src/challenges.js. CO arquivo contém uma série de funções que devem ser implementadas seguindo as instruções e requisitos especificados pela Trybe. O arquivos tests/challenges.spec.js contêm os testes unitários que verificam se as funções estão funcionando corretamente.
+O código deste projeto está organizado no arquivo: src/challenges.js. O arquivo contém uma série de funções que devem ser implementadas seguindo as instruções e requisitos especificados pela Trybe. Os arquivos tests/challenges.spec.js contêm os testes unitários que verificam se as funções estão funcionando corretamente.
 
 # Agradecimentos/Referências
 Este projeto foi desenvolvido pela Trybe como parte do curso de Desenvolvimento Web Full Stack. Agradeço à Trybe pelo suporte e orientação durante todo o processo.
